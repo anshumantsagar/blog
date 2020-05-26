@@ -1,0 +1,53 @@
+/* .background{
+    background-color: rgb(96, 224, 64);
+} */
+.fontColor{
+    color: #32a4a8;
+}
+
+p{
+    color: #226e70;
+}
+.Sitenav li{
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.Sitenav ul{
+    margin: 0px;
+    padding:  0px;
+}
+
+nav{
+    background-color: #e6e3e3;
+    margin-top: 20px;
+}
+
+.Sitenav a{
+    display: block;
+    text-decoration: none;
+    color: #32a4a8;
+    padding: 10px 20px;
+    border: 3px solid #32a4a8;
+}
+ 
+.Sitenav a:hover{
+    background-color:#32a4a8;
+    color: aliceblue;
+}
+
+/*clearing floats*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
