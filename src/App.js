@@ -8,11 +8,15 @@ import './App.css';
 
 //components
 import Navbar from './components/navbar/Navbar'
+import Footer from './components/footer/Foorter'
+import Body from './components/body/Body'
 
 function App() {
   return (
     <div >
       <Navbar></Navbar>
+      <Body></Body>
+      <Footer></Footer>
     </div>
   );
 }

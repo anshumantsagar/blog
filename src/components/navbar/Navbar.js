@@ -8,7 +8,7 @@ const navbar = props => {
     return (
         <div className='background'>
             <header>
-                <h1 className='fontColor'>Blog</h1>
+                <div><h1 className='fontColor'>Blog</h1></div>
                 <p className='secondoryFont'>Blog your thoughts out</p>
                 <nav className='Sitenav'>
                     <ul className='group'>

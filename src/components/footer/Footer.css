@@ -1,0 +1,32 @@
+.Color{
+    background-color: #e6e3e3;
+    border-top: solid 1px;
+    color: #32a4a8;
+}
+
+
+.side_left{
+    width: 70%;
+    float: left;
+}
+
+.side_right{
+    width: 30%;
+    float: right;
+}
+
+
+/*clearing floats*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
