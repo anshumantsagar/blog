@@ -4,7 +4,7 @@ import React from 'react';
 import './LowerBody.css'
 
 const lowerBody = props => {
- return <div className='group center'>
+ return <div className='group maindiv'>
             <div className='box'>
                     <h1>Heading Of the Blog</h1>
                     <p>Some Line That Blog Contains</p>
