@@ -1,12 +1,13 @@
 import React from 'react';
 
 //components
-import Upper from './upper/UpperBody'
+import Upper from './upper/UpperBody';
+import Lower from './lowerbody/LowerBody'
 
 const body = props => {
     return <div>
         <Upper></Upper>
-        Hello I'm Body
+        <Lower></Lower>
     </div>
 }
 
