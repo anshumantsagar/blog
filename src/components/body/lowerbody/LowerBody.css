@@ -3,6 +3,7 @@
 }
 
 .box{
+    text-align: center;
     float: left;
     width: 300px;
     background-color: lightgrey;

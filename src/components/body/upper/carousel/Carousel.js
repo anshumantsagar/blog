@@ -36,24 +36,14 @@ var oneDiv = (items) => {
     })
 }
 
+var oneDivRender = oneDiv(items)
+
 const carousel = props => {
     
     return(
         <Carousel autoPlay className=''>
-        <div>
-            <img alt="" src={items[0].imgSrc} />
-            <p className="legend">{items[0].legend}</p>
-        </div>
-        <div>
-            <img alt="" src={items[1].imgSrc} />
-            <p className="legend">{items[1].legend}</p>
-        </div>
-        <div>
-            <img alt="" src={items[2].imgSrc} />
-            <p className="legend">{items[2].legend}</p>
-        </div>
-        {oneDiv}
-    </Carousel>
+            {oneDivRender}
+        </Carousel>
     )
 }
 
