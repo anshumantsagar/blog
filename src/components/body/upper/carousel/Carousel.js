@@ -27,9 +27,10 @@ var items = [
     }
 ]
 
+
 var oneDiv = (items) => {
     return items.map(item => {
-        return <div>
+        return <div key={item.id}>
             <img alt='' src={item.imgSrc}/>
             <p className="legend">{item.legend}</p>
         </div>
@@ -38,7 +39,7 @@ var oneDiv = (items) => {
 
 var oneDivRender = oneDiv(items)
 
-const carousel = props => {
+const carousel = () => {
     
     return(
         <Carousel autoPlay className=''>
@@ -47,5 +48,5 @@ const carousel = props => {
     )
 }
 
-export default carousel;
+export default React.memo(carousel);
 
